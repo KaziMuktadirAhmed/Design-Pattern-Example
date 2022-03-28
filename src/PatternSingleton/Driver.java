@@ -5,5 +5,12 @@ public class Driver {
         SingleObject instance = SingleObject.getInstance();
         instance.showMessage();
         System.out.println("okay");
+        run();
+    }
+
+    public static void run() {
+        SingleObject singleObject = SingleObject.getInstance();
+        singleObject.reduceVal();
+        singleObject.showMessage();
     }
 }
