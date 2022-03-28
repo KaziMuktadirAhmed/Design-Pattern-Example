@@ -18,7 +18,7 @@ public class SingleObject {
 
     public void reduceVal () {
         Scanner scanInput = new Scanner(System.in);
-        System.out.print("HE HEH EHEEE:");
+        System.out.print("HE HEH HEEE:");
         int reduceVal = scanInput.nextInt();
         HEHEHE -= reduceVal;
     }
