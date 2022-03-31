@@ -1,6 +1,7 @@
 package PatternObserver;
 
 public abstract class Watcher {
-    protected Broardcaster broardcaster;
-    public abstract void getInfo(String input);
+    protected Broadcaster broadcaster;
+    protected int indentifier;
+    public abstract void watch(int input);
 }
