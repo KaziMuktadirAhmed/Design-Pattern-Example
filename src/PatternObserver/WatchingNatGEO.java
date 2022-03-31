@@ -5,7 +5,7 @@ public class WatchingNatGEO extends Watcher{
     public WatchingNatGEO(Broadcaster broadcaster, int identifier) {
         this.broadcaster = broadcaster;
         this.broadcaster.attach(this);
-        this.indentifier = identifier;
+        this.identifier = identifier;
     }
 
     @Override

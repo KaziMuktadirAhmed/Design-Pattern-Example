@@ -20,7 +20,7 @@ public class Broadcaster {
 
     private void updateAll () {
         for (Watcher watcher:watchers) {
-            if(this.time_count%10 < watcher.indentifier) {
+            if(this.time_count%10 < watcher.identifier) {
                 watcher.watch(this.time_count);
                 break;
             }

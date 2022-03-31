@@ -5,7 +5,7 @@ public class WatchingHBO extends  Watcher{
     public WatchingHBO(Broadcaster broadcaster, int identifier) {
         this.broadcaster = broadcaster;
         this.broadcaster.attach(this);
-        this.indentifier = identifier;
+        this.identifier = identifier;
     }
 
     @Override
