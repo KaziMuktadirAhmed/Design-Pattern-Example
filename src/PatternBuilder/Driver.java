@@ -13,5 +13,12 @@ public class Driver {
         System.out.println("Chicken pizza");
         chickenPizza.showOrderList();
         System.out.println("Total price: " + chickenPizza.price());
+
+        buildOrder = new BuildOrder();
+        Order cheesePizza = buildOrder.prepareCheesePizza();
+        System.out.println("Cheese pizza");
+        cheesePizza.showOrderList();
+        System.out.println("Total price: " + cheesePizza.price());
+
     }
 }
